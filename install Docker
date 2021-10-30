@@ -1,0 +1,12 @@
+# Use the following command:
+
+sudo dnf install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.10-3.2.el7.x86_64.rpm
+
+#Now we can proceed to install the latest version of docker-ce with a simple command:
+
+sudo dnf install docker-ce --allowerasing
+
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
+
